@@ -1,3 +1,3 @@
 # Calculator-IOS-JS
 
-[click here!](https://ahmetaric.github.io/Guess-Number/)
+[click here!](https://ahmetaric.github.io/Calculator-IOS-JS/)
