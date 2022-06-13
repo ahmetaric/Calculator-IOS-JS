@@ -24,3 +24,25 @@ ac.addEventListener("click", () => {
   upscreen.innerHTML = "";
   downscreen.innerHTML = "";
 });
+
+
+abs.addEventListener("click",() => {
+     if (downscreen.innerText > 0 || downscreen.innerText < 0) {
+       downscreen.innerText *= -1;
+       upscreen.innerText = downscreen.innerText;
+     } else {
+       downscreen.innerText = upscreen.innerText *= -1;
+       upscreen.innerText = " ";
+       upscreen.innerText = downscreen.innerText;
+     }
+});
+
+modul.addEventListener("click",() => {
+   if (downscreen.innerText > 0 || downscreen.innerText < 0) {
+     downscreen.innerText /= 100;
+     upscreen.innerText = downscreen.innerText;
+   } else {
+     downscreen.innerText = upscreen.innerText / 100;
+     upscreen.innerText = downscreen.innerText;
+   }
+});
